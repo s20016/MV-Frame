@@ -1,4 +1,4 @@
-i#!bin/bash
+#!bin/bash
 
 TMP_DIR=$(mktemp -d $HOME/s20016-XXX)
 BACKUP_DIR="$HOME/ORIGINAL_CONF"
