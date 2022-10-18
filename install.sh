@@ -31,11 +31,11 @@ if [ ! -d $CONFIG_DIR ]; then
   sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   cd $TMP_DIR && git clone https://github.com/s20016/MV-Frame.git
-	cp $TMP_DIR/MugenVim/conf/init.vim $CONFIG_DIR/.
+	cp $TMP_DIR/MV-Frame/conf/init.vim $CONFIG_DIR/.
   nvim +'PlugInstall --sync' +qa
-	cp $TMP_DIR/MugenVim/conf/setting.vim $CONFIG_DIR/.
-	cp $TMP_DIR/MugenVim/conf/mapping.vim $CONFIG_DIR/.
-	cp $TMP_DIR/MugenVim/conf/plugins.vim $CONFIG_DIR/.
+	cp $TMP_DIR/MV-Frame/conf/setting.vim $CONFIG_DIR/.
+	cp $TMP_DIR/MV-Frame/conf/mapping.vim $CONFIG_DIR/.
+	cp $TMP_DIR/MV-FrameMugenVim/conf/plugins.vim $CONFIG_DIR/.
   mkdir $SESSIO_DIR
   nvim +'source $CONFIG_DIR/init.vim' +q
 fi
