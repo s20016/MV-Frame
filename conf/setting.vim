@@ -39,7 +39,7 @@ set ruler                               " Ruler in status line
 set scrolloff=6                         " Minimal screen line above and below
 set shiftwidth=2                        " One tab == 2 spaces
 set showmatch                           " Highlight matching brackets
-set signcolumn=yes:1                    " Gutter column
+" set signcolumn=yes:1                  " Gutter column
 set smartcase                           " Ignore letter case
 set smartindent                         " Auto-indent when starting new line
 set softtabstop=2                       " Number of spaces a tab counts
