@@ -33,8 +33,8 @@ if [ ! -d $CONFIG_DIR ]; then
 	cp $TMP_DIR/MV-Frame/conf/init.vim $CONFIG_DIR/.
 	cp $TMP_DIR/MV-Frame/conf/setting.vim $CONFIG_DIR/.
 	cp $TMP_DIR/MV-Frame/conf/mapping.vim $CONFIG_DIR/.
-	cp $TMP_DIR/MV-Frame/conf/plugins.vim $CONFIG_DIR/.
   nvim +'PlugInstall --sync' +qa
+	cp $TMP_DIR/MV-Frame/conf/plugins.vim $CONFIG_DIR/.
   mkdir $SESSIO_DIR
   nvim +'source $CONFIG_DIR/init.vim' +q
 fi
