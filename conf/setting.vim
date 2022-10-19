@@ -34,7 +34,7 @@ set noshowmode                          " Hide message
 set noswapfile                          " Disable tmp files
 set nowrap                              " Displays long lines as one line
 set pumheight=10                        " Pop-up menu height
-set relativenumber                      " Toggle line number
+set number                              " Toggle line number
 set ruler                               " Ruler in status line
 set scrolloff=6                         " Minimal screen line above and below
 set shiftwidth=2                        " One tab == 2 spaces

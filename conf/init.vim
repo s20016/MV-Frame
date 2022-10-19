@@ -13,6 +13,7 @@ call plug#begin(expand('~/.local/share/nvim/site/plugged'))
 
 Plug 'itchyny/lightline.vim'                              " Minimal statuline
 Plug 'joshdick/onedark.vim'                               " Color Scheme
+Plug 'jiangmiao/auto-pairs'                               " Insert auto-pairs
 
 call plug#end()
 
